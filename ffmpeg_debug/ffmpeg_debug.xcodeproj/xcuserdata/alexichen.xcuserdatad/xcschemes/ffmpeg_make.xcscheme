@@ -46,7 +46,7 @@
       allowLocationSimulation = "YES">
       <PathRunnable
          runnableDebuggingMode = "0"
-         FilePath = "/Users/alexichen/FFMPEG/ffmpeg_src/ffmpeg/ffmpeg_g">
+         FilePath = "/Users/alexichen/GitHubWorkSpace/FFMPEGStudy/ffmpeg/ffmpeg_g">
       </PathRunnable>
       <MacroExpansion>
          <BuildableReference
@@ -59,7 +59,7 @@
       </MacroExpansion>
       <CommandLineArguments>
          <CommandLineArgument
-            argument = "-i /Users/alexichen/FFMPEG/ffmpeg_src/ffmpeg_test.MP4"
+            argument = "-i /Users/alexichen/GitHubWorkSpace/FFMPEGStudy/ffmpeg_test.MP4"
             isEnabled = "YES">
          </CommandLineArgument>
       </CommandLineArguments>

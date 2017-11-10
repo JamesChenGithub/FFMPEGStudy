@@ -1,3 +1,27 @@
 #Debug配置
-参考：http://www.jianshu.com/p/231c8dff2cb0
+
+http://www.voidcn.com/article/p-ujapkawa-bdq.html
+
+http://www.voidcn.com/article/p-fjqxpvsc-bmr.html
+##参考：http://www.jianshu.com/p/231c8dff2cb0
+
+https://www.zybuluo.com/Larkin199105/note/550679
+
+1、cd ffmpeg-3.2.4/
+
+      2、./configure --logfile= --disable-doc --enable-ffmpeg --enable-ffplay --enable-ffserver --enable-version3 --prefix=./dist-x64/ --enable-debug=2 --enable-swscale --disable-yasm --disable-bzlib --enable-gpl --enable-nonfree --target-os=darwin --disable-mmx
+
+./configure –enable-debug
+make -j8
+
+   3、time make -j9 && make install
+
+   4、查看 dist-x64文件是否生成
+
+作者：TakeCare_e819
+链接：http://www.jianshu.com/p/231c8dff2cb0
+來源：简书
+著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
+
+
 xcode github配置：https://gist.github.com/mba811/6ae6f80cacd7ce00eabe
